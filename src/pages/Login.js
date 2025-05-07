@@ -10,7 +10,7 @@ export default function Login() {
   };
 
   const handleLogin = e => {
-    e.preventDefault();
+    e.preventDefault();a
     AuthService.login(form.username, form.password)
       .then(() => {
         window.location.href = '/';
